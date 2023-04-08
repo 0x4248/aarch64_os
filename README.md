@@ -1,6 +1,6 @@
 # AARCH64 OS
 
-This is a simple OS for the AARCH64 architecture. It is written in C and assembly.
+This is a simple OS for the aarch64 architecture. It is written in C and assembly.
 
 Most of the help for this project came from [OS Dev](https://wiki.osdev.org/).
 
@@ -13,3 +13,7 @@ To build the OS, you need to have the following installed:
 - [QEMU](https://www.qemu.org/)
 
 To build the OS, run `make` in the root directory of the project.
+
+## Running
+
+To run the project in qemu run `make run`. This will run the OS in qemu
