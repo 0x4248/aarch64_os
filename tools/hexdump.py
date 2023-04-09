@@ -1,7 +1,8 @@
 import subprocess
 
 with open("README.md", "r") as f:
-    lines = f.readlines()
+    lines = f.readlines() 
+lines = lines[:19]
 
 hexdump_output = subprocess.check_output(["hexdump", "kernel.elf"])
 lines.insert(20, "## Hexdump of image\n```\n" + hexdump_output.decode() + "\n```\n")
