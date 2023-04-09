@@ -1,0 +1,25 @@
+name: Build on aarch64-Linux-gnu
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        arch: [aarch64]
+    steps:
+    - name: Install aarch64-Linux-gnu toolchain
+      run: sudo apt-get update && sudo apt-get install -y gcc-aarch64-linux-gnu
+
+    - name: Clone code
+      uses: actions/checkout@v2
+
+    - name: Build code
+      run: make
