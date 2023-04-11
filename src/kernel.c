@@ -14,12 +14,6 @@ void putchar(char c)
     *uart = c;
 }
 
-char getchar()
-{
-    while ((*uart & 0x01) == 0) {}
-    return (char)(*uart);
-}
-
 void printk(const char *s)
 {
     while (*s != '\0')
