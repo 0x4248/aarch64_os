@@ -7,8 +7,8 @@ Most of the help for this project came from [OS Dev](https://wiki.osdev.org/).
 ## Building
 
 To build the OS, you need to have the following installed:
-- [aarch64-linux-gnu-gcc](https://packages.ubuntu.com/focal/aarch64-linux-gnu-gcc)
-- [aarch64-linux-gnu-binutils](https://packages.ubuntu.com/focal/aarch64-linux-gnu-binutils)
+- aarch64-linux-gnu-gcc
+- aarch64-linux-gnu-binutils
 - [GNU Make](https://www.gnu.org/software/make/)
 - [QEMU](https://www.qemu.org/)
 
