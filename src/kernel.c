@@ -1,5 +1,6 @@
 /* AArch64 kernel
  * Github: https://www.github.com/awesomelewis2007/aarch64_os
+ * By: Lewis Evans
 */
 
 #include <stdint.h>
