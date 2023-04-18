@@ -1,3 +1,6 @@
+# Aarch64 OS
+# Github: https://github.com/awesomelewis2007/aarch64_os
+# By: Lewis Evans
 
 AS = aarch64-linux-gnu-as
 CC = aarch64-linux-gnu-gcc
