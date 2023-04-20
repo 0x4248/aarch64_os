@@ -1,3 +1,7 @@
+# AArch64 kernel
+# Github: https://www.github.com/awesomelewis2007/aarch64_os
+# By: Lewis Evans
+
 import subprocess
 
 with open("README.md", "r") as f:
