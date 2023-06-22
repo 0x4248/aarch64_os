@@ -1,0 +1,18 @@
+{
+    "name": "aarch64_os",
+    "description": "This is a simple OS for the AARCH64 architecture",
+    "version": "",
+    "main_file": "src/boot/boot.s",
+    "author": "Lewis Evans",
+    "license": "GNU General Public License v3.0",
+    "url": "https://www.github.com/awesomelewis2007/aarch64_os",
+    "email": "none",
+    "languages": [
+        "python",
+        "c"
+    ],
+    "actions": {
+        "run": "make run",
+        "build": "make"
+    }
+}
