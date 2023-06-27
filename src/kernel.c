@@ -1,5 +1,5 @@
 /* AArch64 kernel
- * Github: https://www.github.com/awesomelewis2007/aarch64_os
+ * Github: https://www.github.com/lewisevans2007/aarch64_os
  * By: Lewis Evans
 */
 

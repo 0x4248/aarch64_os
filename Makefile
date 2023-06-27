@@ -1,5 +1,5 @@
 # Aarch64 OS
-# Github: https://github.com/awesomelewis2007/aarch64_os
+# Github: https://github.com/lewisevans2007/aarch64_os
 # By: Lewis Evans
 
 AS = aarch64-linux-gnu-as
