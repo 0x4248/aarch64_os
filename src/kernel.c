@@ -24,6 +24,9 @@ void printk(const char *s)
     }
 }
 
+/**
+ * kmain - main kernel function
+*/
 void kmain(void)
 {
     printk("Welcome to this simple aarch64 OS!\n");
