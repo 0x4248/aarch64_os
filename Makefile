@@ -2,9 +2,9 @@
 # Github: https://github.com/lewisevans2007/aarch64_os
 # By: Lewis Evans
 
-AS = aarch64-linux-gnu-as
-CC = aarch64-linux-gnu-gcc
-LD = aarch64-linux-gnu-ld
+AS = aarch64-elf-as
+CC = aarch64-elf-gcc
+LD = aarch64-elf-ld
 
 SRC = src
 
