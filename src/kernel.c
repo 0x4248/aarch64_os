@@ -23,10 +23,19 @@ void printk(const char *s)
     }
 }
 
+void kernel_call_poweroff()
+{
+    asm volatile(
+        "ldr x0, =0x84000008\n"
+        "hvc #0\n");
+}
+
+
 /**
  * kmain - main kernel function
 */
 void kmain(void)
 {
     printk("Welcome to this simple aarch64 OS!\n");
+    kernel_call_poweroff();
 }
