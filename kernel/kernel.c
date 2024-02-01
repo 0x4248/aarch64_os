@@ -7,6 +7,8 @@
 #include <stddef.h>
 #include <stdbool.h>
 
+#include "power.h"
+
 volatile uint8_t *uart = (uint8_t *)0x09000000;
 
 void putchar(char c)
@@ -23,12 +25,6 @@ void printk(const char *s)
     }
 }
 
-void kernel_call_poweroff()
-{
-    asm volatile(
-        "ldr x0, =0x84000008\n"
-        "hvc #0\n");
-}
 
 
 /**
