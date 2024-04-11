@@ -1,6 +1,6 @@
 # Aarch64 OS
-# Github: https://github.com/lewisevans2007/aarch64_os
-# By: Lewis Evans
+# Github: https://github.com/0x4248/aarch64_os
+# By: 0x4248
 
 AS = as
 CC = gcc

@@ -3,9 +3,9 @@
     "description": "This is a simple OS for the AARCH64 architecture",
     "version": "",
     "main_file": "src/boot/boot.s",
-    "author": "Lewis Evans",
+    "author": "0x4248",
     "license": "GNU General Public License v3.0",
-    "url": "https://www.github.com/lewisevans2007/aarch64_os",
+    "url": "https://www.github.com/0x4248/aarch64_os",
     "email": "none",
     "languages": [
         "python",

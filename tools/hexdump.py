@@ -1,6 +1,6 @@
 # AArch64 kernel
-# Github: https://www.github.com/lewisevans2007/aarch64_os
-# By: Lewis Evans
+# Github: https://www.github.com/0x4248/aarch64_os
+# By: 0x4248
 
 import subprocess
 
